@@ -1,4 +1,4 @@
-FROM alpine:3.18
+FROM alpine:3.19
 
 LABEL "com.github.actions.name"="Github Action for wget"
 LABEL "com.github.actions.description"="Wraps the wget CLI to be used in Github Actions"
@@ -9,7 +9,7 @@ LABEL "repository"="http://github.com/fharper/wget"
 LABEL "homepage"="http://github.com/fharper/wget"
 LABEL "maintainer"="Frédéric Harper <hi@fred.dev>"
 
-RUN apk add --no-cache ca-certificates=~20230506-r0
+RUN apk add --no-cache ca-certificates=~20240226-r0
 
 COPY *.sh /
 RUN chmod +x entrypoint.sh
