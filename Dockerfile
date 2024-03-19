@@ -5,9 +5,9 @@ LABEL "com.github.actions.description"="Wraps the wget CLI to be used in Github 
 LABEL "com.github.actions.icon"="download"
 LABEL "com.github.actions.color"="gray-dark"
 
-LABEL "repository"="http://github.com/fharper/wget"
-LABEL "homepage"="http://github.com/fharper/wget"
-LABEL "maintainer"="Frédéric Harper <hi@fred.dev>"
+LABEL "repository"="http://github.com/thriveglobal/wget"
+LABEL "homepage"="http://github.com/thriveglobal/wget"
+LABEL "maintainer"="Thrive Global <helpdesk@thriveglobal.com>"
 
 RUN apk add --no-cache ca-certificates=~20240226-r0
 
